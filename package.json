@@ -1,0 +1,23 @@
+{
+  "name": "tech-with-tim-slot-machine-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ThavishaF/tech-with-tim-slot-machine-js-project#readme",
+  "bugs": {
+    "url": "https://github.com/ThavishaF/tech-with-tim-slot-machine-js-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThavishaF/tech-with-tim-slot-machine-js-project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

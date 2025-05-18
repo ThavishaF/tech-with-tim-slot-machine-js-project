@@ -1,4 +1,6 @@
 Building a slot machine 
+Tech With Tim
+https://www.youtube.com/watch?v=E3XxeE7NF30
 
 Create a new folder 
 Create a new file inside that folder named "project.js" 

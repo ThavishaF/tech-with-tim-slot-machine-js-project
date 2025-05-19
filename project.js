@@ -17,14 +17,14 @@ const SYMBOLS_COUNT = {
     B: 4,
     C: 6,
     D: 8
-}
+};
 
 const SYMBOL_VALUES = {
     A: 5,
     B: 4,
     C: 3,
     D: 2
-}
+};
 
 // 1. deposit some money 
 const deposit = () => {
@@ -38,7 +38,7 @@ const deposit = () => {
             return numberDepositAmount;
         }
     }
-}
+};
 
 // 2. Determine the number of lines to bet on 
 const getNumberOfLines = () => {
@@ -52,7 +52,7 @@ const getNumberOfLines = () => {
             return numberOfLines;
         }
     }
-}
+};
 
 // 3. collect the bet amount 
 const getBet = (balance, lines) => {
@@ -66,20 +66,22 @@ const getBet = (balance, lines) => {
             return numberBet;
         }
     }
-}
+};
 
 
 // 4. Spin the slot machine 
 const spin = () => {
     const symbols = [];
+    // adding ssymbols to the array 
     for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)) {
         for (let i = 0; i < count; i++) {
             symbols.push(symbol);
         }
     }
-    console.log(symbols);
-    // need to continue from this point viideo time stamp - 35.00
-}
+    
+    const reels = [[], [], []];
+    
+};
 
 
 

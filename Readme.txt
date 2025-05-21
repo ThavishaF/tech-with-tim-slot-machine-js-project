@@ -2,6 +2,8 @@ Building a slot machine
 Tech With Tim
 https://www.youtube.com/watch?v=E3XxeE7NF30
 
+To run the program "node project.js" use this comand 
+
 Create a new folder 
 Create a new file inside that folder named "project.js" 
 
